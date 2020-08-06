@@ -255,7 +255,9 @@
     div.box-v{
         width: 100%;
     }
-
+    div.img-1 {
+        height: 150px;
+    } 
     /* DESCRIPCION INSTRUMENTO */
 
     section.muestra{
