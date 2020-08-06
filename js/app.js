@@ -11,7 +11,7 @@
 
 $(document).ready(function(){
     
-    $("#nav").scrollspy({ offset: -75 });
+    // $("#nav").scrollspy({ offset: -75 });
     navSlide();
 
     var boton = $('.inscribite');
