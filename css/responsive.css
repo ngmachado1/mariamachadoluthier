@@ -67,6 +67,9 @@
 }
 
 @media(max-width: 768px){
+    .responsivePequeña{
+        width: 79px;
+    }
     div.webServ{
         display: none !important;
     }
