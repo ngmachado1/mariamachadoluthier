@@ -764,7 +764,7 @@ div.formContact{
     padding: 15px 0px;
 
 }
-input, textarea{
+.mensaje{
     border: none;
     width: 75%;
     border-bottom: 1px solid #DDAA00;
