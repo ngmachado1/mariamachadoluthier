@@ -539,6 +539,7 @@ section.formulario p.titulo-centro{
 }
 div.formulario{
     padding-top: 20px;
+    width: 100%;
 }
 div.form-item{
     background-color: #f9f9f9;

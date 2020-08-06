@@ -346,6 +346,9 @@
     div.clases{
         padding-top: 5%;
     }
+    div.form-item{
+        width: 100%;
+    }
 
     /* CONTACT0 */
 
