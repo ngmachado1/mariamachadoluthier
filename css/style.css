@@ -1,0 +1,772 @@
+
+*{
+    font-family: 'museo-sans-rounded', sans-serif;
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #F9F9F9;
+}
+h2{
+    font-family: museo, serif;
+    font-weight: 500;
+    color: #DDAA00;
+    font-size: 2.3rem;
+    padding-top: 3%;
+}
+p{
+    font-size: 19px;
+}
+nav{    
+    font-family: 'museo-sans-rounded';
+    font-weight: 100;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+}
+
+ul.link-items{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    align-self: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+ul.link-items a{
+    color: white;
+    text-decoration: none;
+}
+a.mobile{
+    display:none;
+}
+.contacto{
+    align-self: center;
+    border: solid 3px #DDAA00;
+    padding: 10px 30px;
+    border-radius: 40px;
+}
+p.contact{
+    color: white;
+}
+img.banner-web{
+    object-fit: cover;
+    width: 100%;
+    display: block;
+    margin-top: 0%;
+}
+img.banner-mobile{
+    display: none;
+}
+.menu{
+    display: none;
+    border: solid #DDAA00 2px;
+    padding: 5px;
+    border-radius: 3px;
+}
+.menu div{
+    width: 26px;
+    height: 2px;
+    margin: 4px;
+    background-color: #DDAA00;
+}
+.menu div.linea2{
+    width: 20px;
+}
+nav.fix{
+    position: fixed;
+}
+nav.dark{
+    background-color: black;
+    transition: 0.7s ease;
+    z-index: 10;
+}
+img.pequena{
+    width: 60px;
+    padding: 10px 0px;
+    transition: 0.7s ease;
+}
+section{
+    padding-top: 5%;
+    margin: 0px 8%;
+}
+section.biografia{
+    padding-bottom: 5%;
+}
+div.separador{
+    display: flex;
+}
+p.separador{
+    font-family: museo-sans-display, sans-serif;
+    font-weight: 800;
+    color: #00b19c;
+    font-size: 14px;
+}
+div.linea-separador{
+    align-self: center;
+    height: 1px;
+    background-color: #00b19c;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+div.bio{
+    display: flex;
+}
+div.texto-col1{
+    line-height: 30px;
+    width: 49%;
+    margin-right: 1%;
+    font-size: 1.1rem;
+    padding-top: 15px;
+
+}
+div.texto-col2{
+    line-height: 30px;
+    width: 49%;
+    margin-left: 1%;
+    font-size: 1.1rem;
+    padding-top: 15px;
+}
+div.parallax{
+    background-image: url('../Images/violin-volteado.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Servicios */
+
+
+section.servicios h2{
+    text-align: end;
+}
+button.servicio{
+    font-family: museo, serif;
+    font-weight: 500;
+    font-size: 1.3em;
+    text-align: center;
+}
+.boton-service{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+}
+button.servicios{
+    margin: 0.5%;
+    width: 18.5%;
+    min-width: 20px;
+    height: 90px;
+    -webkit-box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.24);
+    box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.24);
+    border: none;
+    background-color: #ffffff;
+    padding: 2px;
+}
+button.servicios:hover{
+    background-color: #00b19c;
+    color: white;
+}
+button.servicios.active{
+    -webkit-box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.24);
+    box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.24);
+    border: none;
+    background-color: #00b19c;
+    color: white;
+}
+
+.imagen-service{
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+#descript{
+    height: 200px;
+}
+div.mobile{
+    display: none;
+}
+
+/*violines y violas*/
+/* section.instrumentos{
+    position: relative;
+} */
+/* div.frase-violinesyviolas{
+    position: relative;
+    width: 100%;
+} */
+.violin-cruzado{
+    transform: rotate(30deg);
+    width: 35%;
+    float: right;
+    padding-right: 15%;
+}
+.frase-v{
+    font-size: 40px;
+    line-height: 60px;
+}
+.fraseimagen{
+    overflow: hidden;
+    margin-top: 10%;
+}
+button.instrumentos{
+    border: solid 3px #DDAA00;
+    padding: 10px 30px;
+    border-radius: 40px;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+    margin: 30px auto;
+    color: #707070;
+    display: block;
+    cursor: pointer;
+}
+button.instrumentos:hover{
+    border: solid 3px #DDAA00;
+    background-color: #DDAA00;
+    color: white;
+    transition: 0.4s ease;
+}
+a.boton{
+    outline: none;
+}
+.violas img{
+    width: 90%;
+}
+
+/* Galeria Instagram */
+
+section.galeria h2{
+    text-align: end;
+}
+
+/* footer */
+
+footer{
+    background-color: #00b19c;
+    margin-top: 5%;
+}
+section.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+div.logo img{
+    padding-bottom: 15%;
+    width: 80%;
+}
+div.col1{
+    padding-top: 1.5%;
+}
+div.footer-1{
+    display: flex;
+    padding: 20px 0px;
+    font-size: 20px;
+    color: white;
+
+}
+div.icono{
+    padding-right: 20px;
+    color: white;
+
+}
+
+
+/*INSTRUMENTOS*/
+
+li.active{
+    color: #DDAA00;
+    font-weight: 500;
+}
+section.violinesYViolas{
+    padding-top: 8%;
+}
+h2.centro{
+    text-align: center;
+}
+div.separador-instrumentos{
+    padding-top: 6%;
+    display: flex;
+    justify-content: space-around;
+}
+div.lineaIzquierda{
+    height: 1px;
+    background-color: #00b19c;
+    width: 45%;
+    padding-left: 0px;
+    align-self: center;
+}
+div.lineaDerecha{
+    height: 1px;
+    background-color: #00b19c;
+    width: 45%;
+    padding-right: 0px;
+    align-self: center;
+}
+div.anio p.anio{
+    text-align: center;
+    color: #00b19c;
+    font-family: museo-sans-display, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+}
+div.padre-v{
+    display: flex;
+    justify-content: space-around;
+}
+div.box-v{
+    width: 30%;
+    box-sizing: border-box;
+    margin-top: 5%;
+    background-color: white;
+}
+div.titulo-v h3{
+    text-align: center;
+    color: #00b19c;
+    font-family: museo-sans-display, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    padding-top: 5%;
+}
+hr{
+    height: 1px;
+    background-color: #00b19c;
+    width: 80%;
+    margin: 5% auto;
+    color: #00b19c;
+    border: none;
+}
+div.img-v{
+    display: block;
+    box-sizing: border-box;
+}
+div.img-v img{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: -3px;
+}
+
+/* DETALLE INSTRUMENTO */
+
+section.muestra{
+    display: flex;
+    padding-top: 10%;
+}
+div.contenedor{
+    display: flex;
+    width: 30%;
+    height: 500px;
+}
+div.imagen-grande{
+    width: 77%;
+    background-color: #FDFDFD;
+    border: 1px solid #BFBFBF;
+}
+div.imagen-grande img{
+    height: 100%;
+    margin: auto;
+    display: block;
+    padding: 5px;
+}
+div.cont-tres{
+    width: 20%;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+div.img-1{
+    width: 100%;
+    background-color: #FDFDFD;
+    height: 25%;
+    border: 1px solid #BFBFBF;
+}
+
+div.img-1-centro img{
+    display: block;
+    height: 100%;
+    margin: auto;
+}
+div.img-1 img{
+    display: block;
+    height: 100%;
+    margin: auto;
+    padding: 5px;
+
+}
+div.descripcion{
+    width: 37%;
+    margin-left: 3%;
+}
+div.descripcion h3{
+    font-family: museo, serif;
+    font-weight: 500;
+    color: #DDAA00;
+    font-size: 2rem;
+    padding-top: 3%;
+}
+div.descripcion h4{
+    font-family: museo-sans, sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding-top: 5%;
+    color: #707070;
+}
+div.modelo p{
+    padding-top: 15px;
+    font-size: 1.1rem;
+}
+
+/* CURSOS-DE-CONSTRUCCION */
+
+div.cursos-contenido{
+    padding-top: 70px;
+    display: flex;
+    height: 100%;
+}
+div.menu-lateral h3{
+    color: #00b19c;
+    font-family: museo-sans-display, sans-serif;
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+div.menu-lateral ul{
+    padding-top: 5%;
+}
+div.menu-lateral ul li{
+    font-size: 1.1rem;
+    line-height: 32px;
+    border-bottom: solid 1px #00b19c;
+    width: 70%;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+div.menu-lateral{
+    width: 30%;
+    padding-left: 5%;
+    max-width: 500px;
+    border-right: #00b19c 2px solid;
+    margin-top: 5%;
+}
+
+div.tiempo-modo{
+    display: flex;
+}
+div.tiempo-modo h5{
+    padding-top: 10px;
+    padding-right: 10%;
+    font-size: 1.2rem;
+}
+div.detalle{
+    padding-top: 4%;
+    padding-left: 5% !important;
+}
+div.detalle h2{
+    padding-top: 0px;
+}
+div.detalle p{
+    line-height: 40px;
+}
+div.clases{
+    padding-top: 5%;
+}
+span.celeste{
+    color: #1A9886;
+    padding-right: 10px;
+}
+b{
+    font-weight: 700;
+}
+button.inscribite{
+    border: solid 3px #00b19c;
+    padding: 10px 30px;
+    border-radius: 40px;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    margin: 30px auto;
+    color: #707070;
+    display: block;
+    cursor: pointer;
+    background-color: white;
+}
+button.inscribite:hover{
+    border: solid 3px #00b19c;
+    background-color: #00b19c;
+    color: white;
+    transition: 0.4s ease;
+}
+
+/* formulario de inscripcion modal */
+
+div.flexbox{
+    display: flex;
+    justify-content: space-between;
+}
+.linea-titulo-centro-izquierda{
+    height: 1px;
+    background-color: #00b19c;
+    width: 38%;
+    align-self: center;
+}
+.titulo-centro{
+    text-align: center;
+    color: #00b19c;
+    font-family: museo-sans-display, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+}
+section.formulario p.titulo-centro{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.linea-titulo-centro-derecha{
+    height: 1px;
+    background-color: #00b19c;
+    width: 38%;
+    align-self: center;
+}
+div.formulario{
+    padding-top: 20px;
+}
+div.form-item{
+    background-color: #f9f9f9;
+    text-align: center;
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding: 15px 0px;
+    font-size: 18px;
+}
+.primero{
+    padding-top: 25px !important;
+}
+input.item-form{
+    border: none;
+    border-bottom: 1px solid rgb(197, 197, 197);
+    background-color: #f9f9f9;
+}
+input.item-form:focus{
+    border: none;
+    border-bottom: 3px solid #00b19c;
+    outline: none;
+}
+
+
+
+
+input[type=range] {
+    -webkit-appearance: none;
+    width: 90%;
+    margin: 12.45px 0;
+  }
+  input[type=range]:focus {
+    outline: none;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5.1px;
+    cursor: pointer;
+    box-shadow: 0px 0px 4.2px #00b19c, 0px 0px 0px #00cbb2;
+    background: #ffffff;
+    border-radius: 18.4px;
+    border: 0px solid #ffffff;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    box-shadow: 1.7px 1.7px 6.7px rgba(187, 187, 187, 0.58), 0px 0px 1.7px rgba(200, 200, 200, 0.58);
+    border: 6.3px solid #ffffff;
+    height: 19px;
+    width: 19px;
+    border-radius: 20px;
+    background: #00b19c;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -6.95px;
+  }
+  input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ffffff;
+  }
+    input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 5.1px;
+    cursor: pointer;
+    box-shadow: 0px 0px 4.2px #00b19c, 0px 0px 0px #00cbb2;
+    background: #ffffff;
+    border-radius: 18.4px;
+    border: 0px solid #ffffff;
+  }
+  input[type=range]::-moz-range-thumb {
+    box-shadow: 1.7px 1.7px 6.7px rgba(187, 187, 187, 0.58), 0px 0px 1.7px rgba(200, 200, 200, 0.58);
+    border: 6.3px solid #ffffff;
+    height: 19px;
+    width: 19px;
+    border-radius: 30px;
+    background: #00b19c;
+    cursor: pointer;
+  }
+  input[type=range]::-ms-track {
+    width: 100%;
+    height: 5.1px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+  }
+  input[type=range]::-ms-fill-lower {
+    background: #858585;
+    border: 0px solid #ffffff;
+    border-radius: 36.8px;
+    box-shadow: 0px 0px 4.2px #00b19c, 0px 0px 0px #00cbb2;
+  }
+  input[type=range]::-ms-fill-upper {
+    background: #ffffff;
+    border: 0px solid #ffffff;
+    border-radius: 36.8px;
+    box-shadow: 0px 0px 4.2px #00b19c, 0px 0px 0px #00cbb2;
+  }
+  input[type=range]::-ms-thumb {
+    box-shadow: 1.7px 1.7px 6.7px rgba(187, 187, 187, 0.58), 0px 0px 1.7px rgba(200, 200, 200, 0.58);
+    border: 6.3px solid #ffffff;
+    height: 30px;
+    width: 19px;
+    border-radius: 19px;
+    background: #00b19c;
+    cursor: pointer;
+    height: 5.1px;
+  }
+  input[type=range]:focus::-ms-fill-lower {
+    background: #ffffff;
+  }
+  input[type=range]:focus::-ms-fill-upper {
+    background: #ffffff;
+  }
+
+  
+  
+.item-form{
+    width: 90%;
+    font-size: 18px;
+}
+div.range{
+    padding: 0px 25px;
+    color: #7e7e7e;
+}
+p.nivel{
+    padding-bottom: 10px;
+    text-align: start;
+    padding-left: 25px;
+    color: #7e7e7e;
+}
+.textarea{
+    height: 100px;
+}
+.textarea:focus{
+    height: 100px;
+    border: 2px solid #00b19c ;
+    outline: #00b19c;
+}
+.modal{
+    display: none;
+}
+.transision{
+    transition: 2s ease;
+}
+
+/* CONTACTO */
+section.contacto-section{
+    padding-top: 10%;
+}
+.separador-flex{
+    display: flex;
+}
+.linea-separador-contacto{
+    align-self: center;
+    height: 1px;
+    background-color: #00b19c;
+    width: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.linea-separador-mensaje{
+    align-self: center;
+    height: 1px;
+    background-color: #DDAA00;
+    width: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.contaInfo{
+    width: 50%;
+}
+.contaForm{
+    width: 50%;
+   
+}
+.ContactInfoForm{
+    display: flex;
+}
+p.men1{
+    color: #DDAA00;
+}
+
+div.flex{
+    display: flex;
+}
+div.contacto-info{
+    padding-top: 5%;
+    display: block;
+    margin: auto;
+
+}
+div.info-contacto{
+    display: flex;
+    padding: 15px 0px;
+    justify-content: stretch;
+}
+div.iconContact{
+    padding: 0px 40px;
+}
+div.textContact{
+    margin-left: 2%;
+    text-align: start;
+    align-items: center;
+}
+.wapp, .facebk, .igm{
+    font-size: 2em;
+    color: #00b19c
+
+}
+.sobre, .mapa{
+    font-size: 1.7em;
+    color: #00b19c
+
+}
+/* FORMULARIO */
+div.formulario-contacto-info{
+    padding-top: 5%;
+    padding-left: 20px;
+    display: block;
+    margin: auto;
+}
+div.formContact{
+    padding: 15px 0px;
+
+}
+input, textarea{
+    border: none;
+    width: 75%;
+    border-bottom: 1px solid #DDAA00;
+    font-size: 19px;
+    background-color: #F9F9F9;
+}

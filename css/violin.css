@@ -1,0 +1,85 @@
+@media(max-width: 2900px){
+    div.frase-violinesyviolas{
+        height: 154vh;
+    }
+}
+@media(max-width: 2600px){
+    div.frase-violinesyviolas{
+        height: 142vh;
+    }
+} 
+@media(max-width: 2500px){
+    div.frase-violinesyviolas{
+        height: 140vh;
+    }
+}
+@media(max-width: 2400px){
+    div.frase-violinesyviolas{
+        height: 135vh;
+    }
+    div.contenedor{
+        width: 35%;
+    }
+}
+@media(max-width: 2300px){
+    div.frase-violinesyviolas{
+        height: 130vh;
+    }
+}
+@media(max-width: 2200px){
+    div.frase-violinesyviolas{
+        height: 125vh;
+    }
+}
+@media(max-width: 2100px){
+    div.frase-violinesyviolas{
+        height: 117vh;
+    }
+
+    div.contenedor{
+        width: 40%;
+    }
+}
+}@media(max-width: 2000px){
+    div.frase-violinesyviolas{
+        height: 112vh;
+    }
+}
+
+@media(max-width: 1900px){
+    div.frase-violinesyviolas{
+        height: 106vh;
+    }
+
+}
+@media(max-width: 1800px){
+    div.frase-violinesyviolas{
+        height: 100vh;
+    }
+    div.contenedor{
+        width: 50%;
+    }
+}
+@media(max-width: 1700px){
+    div.frase-violinesyviolas{
+        height: 95vh;
+    }
+}
+@media(max-width: 1600px){
+    div.frase-violinesyviolas{
+        height: 93vh;
+    }
+}
+@media(max-width: 1500px){
+    div.frase-violinesyviolas{
+        height: 85vh;
+    }
+}
+@media(max-width: 1400px){
+    div.frase-violinesyviolas{
+        height: 77vh;
+    }
+    div.contenedor{
+        width: 60%;
+    }
+}

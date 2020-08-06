@@ -1,0 +1,367 @@
+@media (max-width: 1500px){
+    ul.link-items {
+        width: 50%;
+    }
+}
+@media(max-width: 1300px) {
+
+    nav{
+        font-size: 14px;
+    }
+    ul.link-items{
+        width: 60%;
+    }
+    div.web{
+        display: none;
+    }
+    div.contacto.web{
+        display: inline;
+    }
+    div.servicios.mobile{
+        display: block;
+        padding-top: 5%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    div.servicio-m{
+        display: block;
+    }
+    div.uno{
+        align-self: center;
+    }
+
+    div.parallax{
+        display: none;
+    }
+    button.servicio{
+        font-size: 1.1em;
+    }
+    div.violin-inclinado{
+        display: block;
+        height: 50vh;
+        position: relative;
+    }
+    div.violin-inclinado img{
+        position: absolute;
+        top: -5%;
+        right: 50%;
+    }
+    div.violin-inclinado p{
+        position: absolute;
+        text-align: end;
+        width: 50%;
+        line-height: 30px;
+        bottom: 40%;
+        left: 45%;
+    }
+    div.frase-violinesyviolas{
+    display: none;
+    }
+
+
+}
+@media(max-width: 1000px) {
+    button.servicio{
+        font-size: 1em;
+    }
+}
+
+@media(max-width: 768px){
+    div.webServ{
+        display: none !important;
+    }
+    .mobile{
+        display: inherit !important;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    nav{
+        display: inline;
+        background-color: white;
+        height: 70px;
+        z-index: 20;
+    }
+    nav.active{
+        height: 70vh;
+        transition: 0.5s ease;
+    }
+    nav.dark{
+        background-color: white;
+        transition: 0.7s ease;
+        z-index: 10;
+    }
+    img.pequena{
+        width: 79px;
+        padding: 0px;
+        transition: 0.7s ease;
+    }
+    picture{
+        padding-left: 40%;
+    }
+    ul.link-items{
+        flex-direction: column;
+        height: 20vh;
+        text-align: center;
+        width: 100%;
+        padding-top: 180px;
+        transform: translateX(100%);
+        transition: 0.5s ease-in;
+    }
+    ul.link-items li{
+        border-bottom: #00b19c 1px solid;
+        width: 70%;
+        margin-left: 15%;
+        padding: 15px;
+        opacity: 0;
+    }
+    p.frase-v{
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: 300;
+    }
+    p.contact{
+        color: black;
+    }
+    ul.link-items a{
+        color: black;
+    }
+    .contacto.web{
+        display:none
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        top: 17px;
+        right: 25px;
+        cursor: pointer;
+    }
+
+    ul.link-items-active{
+        transform: translateX(0%);
+    }
+    .contacto-active{
+        transform: translateX(0%);
+    }
+    @keyframes navLinkFade {
+        from{
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        to{
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+
+    .toggle .linea1{
+        transform: rotate(-45deg) translate(-4px,5px);
+        transition: 0.5s ease;
+
+    }
+    .toggle .linea2{
+        opacity: 0;
+        transition: 0.3s ease;
+
+    }
+    .toggle .linea3{
+        transform: rotate(45deg) translate(-4px,-5px);
+        transition: 0.5s ease;
+
+    }
+    div.contacto.web{
+        display: none;
+    }
+    img.banner-web{
+        display: none;
+    }
+    img.banner-mobile{
+        object-fit: cover;
+        width: 100%;
+        display: block;
+        margin-top: 0%;
+    }
+    div.bio{
+        display: inline;
+    }
+    div.texto-col1{
+        width: 90%;
+    }
+    div.texto-col2{
+        width: 90%;
+        margin-top: 0px;
+    }
+    /* SERVICIOS */
+    .boton-service{
+        flex-direction: column;
+    }
+    button.servicios{
+        margin: 0.5%;
+        width: 100%;
+        min-width: 20px;
+        height: 50px;
+    }
+    div.servicios.mobile img{
+        width: 80%;
+        margin: 0px 10%;
+    }
+    .accordeon.descripciones{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        }
+
+    .icon-construccion{
+        font-size: 10px !important;
+    }
+
+    /* violines */
+    .violines h3{
+        font-size: 1.3rem;   
+    }
+    .violas h3{
+        position: absolute;
+        bottom: 45%;
+        right: 45%;
+        font-size: 1.3rem;
+        color: white;
+    }
+
+    /* footer */
+
+    section.footer{
+    flex-direction: column;  
+    justify-content: center; 
+    padding: 10px 5%;
+    }
+    div.footer-1{
+        font-size: 16px;
+    }
+    div.logo img{
+        margin-left: 4%;
+        width: 250px;
+    }
+
+    /* Instrumentos */
+    
+    section.violinesYViolas{
+        padding-top: 70px;
+    }
+    div.padre-v{
+        flex-direction: column;
+    }
+    div.box-v{
+        width: 100%;
+    }
+
+    /* DESCRIPCION INSTRUMENTO */
+
+    section.muestra{
+        display: flex;
+        padding-top: 20%;
+        flex-direction: column;
+    }
+
+    div.contenedor{
+        flex-direction: column;
+        width: 100% !important;
+        height: 600px;
+    }
+    .imgbig{
+    }
+    div.imagen-grande{
+        width: 100%;
+        height: 400px;
+    }
+    div.cont-tres{
+        flex-direction: row;
+        width: 100%;
+        margin: 0px;
+        height: 600px;
+    }
+    div.descripcion{
+        width: 100%;
+        display: block;
+    }
+
+
+    /* cursos-contenido */
+
+
+    div.cursos-contenido{
+        flex-direction: column;
+    }
+    div.menu-lateral h3{
+        color: #00b19c;
+        font-family: museo-sans-display, sans-serif;
+        font-weight: 800;
+        font-size: 1rem;
+        text-align: center;
+    }
+    div.menu-lateral ul{
+        padding-top: 5%;
+    }
+    div.menu-lateral ul li{
+        text-align: center;
+        font-size: 1rem;
+        line-height: 32px;
+        border-bottom: solid 1px #00b19c;
+        text-decoration: none;
+        list-style-type: none;
+        color: black;
+        display: block;
+        margin: auto;
+    }
+    div.menu-lateral{
+        width: 100%;
+        background-color: #F9F9F9;
+        padding-top: 90px;
+        padding-left: 0px;
+        max-width: 800px;
+
+    }
+    
+    div.tiempo-modo{
+        display: flex;
+        margin-left: 5%;
+        justify-content: center;
+    }
+    div.tiempo-modo h5{
+        padding-top: 10px;
+        font-size: 1rem;        
+    }
+    div.detalle{
+        padding-top: 4%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 0px !important;
+    }
+    div.detalle h2{
+        padding-top: 0px;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    div.detalle p{
+        line-height: 40px;
+    }
+    div.clases{
+        padding-top: 5%;
+    }
+
+    /* CONTACT0 */
+
+    div.ContactInfoForm{
+        flex-direction: column;
+        padding-top: 70px;
+    }
+    div.contaInfo{
+        width: 100%;
+    }
+    div.contaForm{
+        width: 100%;
+        padding-top: 40px;
+    }
+    input, textarea{
+        width: 80%;
+    }
+
+}
